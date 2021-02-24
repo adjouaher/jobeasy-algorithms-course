@@ -1,0 +1,11 @@
+n = int(input('Input a number of digits '))
+
+def digit_total(n):
+    sum = 0
+    for i in range(1, n):
+        sum = sum + n % 10
+        n = n // 10
+
+    return sum
+
+print(digit_total(n))
