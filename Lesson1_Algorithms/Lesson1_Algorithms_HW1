@@ -10,3 +10,4 @@ def digit_total(n):
 
 print(digit_total(n))
 
+
