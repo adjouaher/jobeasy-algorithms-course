@@ -11,7 +11,7 @@ print(outputlist)
 
 # HW5-2:
 
-list = [14, 35, 8, 61, 71, 20, 9, 2,16,88,92,70]
+list = [14, 35, 8, 61, 71, 20, 9, 2, 16, 88, 92, 70]
 
 def find_len(list):
     length = len(list)
