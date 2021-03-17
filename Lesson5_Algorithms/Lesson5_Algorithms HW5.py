@@ -11,12 +11,12 @@ print(outputlist)
 
 # HW5-2:
 
-list1 = [14, 35, 8, 61, 71, 20, 9, 2,16,88,92,70]
+list = [14, 35, 8, 61, 71, 20, 9, 2,16,88,92,70]
 
-def find_len(list1):
-    length = len(list1)
-    list1.sort()
-    print("Smallest number is:", list1[0])
-    print("Second Smallest number is:", list1[1])
+def find_len(list):
+    length = len(list)
+    list.sort()
+    print("Smallest number is:", list[0])
+    print("Second Smallest number is:", list[1])
 
-Largest = find_len(list1)
+Largest = find_len(list)
